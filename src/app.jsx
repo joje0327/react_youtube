@@ -7,6 +7,7 @@ import VideoDetail from './components/video_detail/video_detail';
 
 
 function App({youtube}) {
+  const a = 'a';
 
   const [videos, setVideos] = useState([]);
   const [selectedVideo, setSelectedVideo] = useState(null);
