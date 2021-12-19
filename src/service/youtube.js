@@ -28,9 +28,9 @@ class Youtube {
                 q : query,
                 
 
-            }
+            },
         });
-        return response.data.item;
+        return response.data.items.map(item => ({ ...item, id: item.id.videoId }));
     }
 }
 

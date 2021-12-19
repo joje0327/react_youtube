@@ -13,7 +13,7 @@ const VideoItem = memo (
              />
             <div className={styles.metadata}>
                 <p className={styles.title}>{snippet.title}</p>
-                <p className={styles.channel}>{snippet.chanelTitle}</p>
+                <p className={styles.channel}>{snippet.channelTitle}</p>
             </div>
             </div>
         
